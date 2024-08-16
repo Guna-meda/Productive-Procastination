@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+* {
+  padding: 5px;
+}
+
+h1 {
+  color: #edecfb;
+  font-weight: 800;
+  font-size: xxx-large;
+}
+
+h4 {
+  color: #faf8f5;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+body {
+  font-family: "Sofia Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  background-color: #c59074;
+}
+
+.enter input {
+  height: 33px;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.row {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.card {
+  border: solid 1px;
+  color: #885c48;
+  font-weight: 750;
+}
+
+.hrleft {
+  width: 40%;
+  display: flex;
+  margin-left: 30%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: hsl(19, 31%, 41%);
+  border: #885c48;
+  width: 5rem;
+}
+
+.card-body {
+  font-weight: 700;
+}
+
+.boxes {
+  display: flex;
+  gap: 2em;
+  padding: 1.5em;
+  margin-top: 1em;
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col {
+    width: 90%;
+  }
+
+  .col input {
+    width: 90%;
+  }
+
+  #hours {
+    width: 90%;
+  }
+
+  #Prefer {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .hrleft {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .boxes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
